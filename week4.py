@@ -51,7 +51,7 @@ result=0
 
 while True:
     target = (n//k) * k 
-    result = result + (n-target)
+    result = result + (n- target)
     n = target
     if n < k:
         break
